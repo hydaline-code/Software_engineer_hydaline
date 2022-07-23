@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <head>
+    <title>Forms organistaion</title>
+
+    <style>
+      input{
+        margin-top: 20px;
+        width: 100px;
+        
+      }
+
+      label{
+        font-weight: bold;
+        margin: 10px;
+       
+      }
+
+      form{
+        background-color: beige;
+        display: inline-block;
+        width: 400px;
+        height: 150px;
+      }
+      .btn1{
+        font-weight: bold;
+        justify-content: center;
+        margin-right: 10px;
+        
+        
+      }
+      .btn2{
+        font-weight: bold;
+        
+        
+      }
+      .ln{
+        margin-bottom: 30px;
+      }
+      div{
+        display: flex;
+        justify-content:center;
+        
+        
+      }
+      
+    </style>
+
+  </head>
+
+  <body>
+    <label="name"> Your name: </label><input type="text"><br>
+    <label="name"> Your Email: </label><input type="text"><br>
+    <label="name"> Your Tel:</label><input type="text"><br>
+
+    <p>Education completed: <input type="text" list="edulevel"
+      name="education">
+      <datalist id="edulevel">
+      <option value="High School">
+      <option value="Bachelors Degree">
+      <option value="Masters Degree">
+      <option value="PhD">
+      </datalist>
+
+   
+      <form>
+        <label >First Name: </label><input class="Fn" type="text">
+        <br>
+        <label >Last Name: </label><input class="ln"  type="text">
+        <br>
+        <div>
+          <button class="btn1">Submit</button>
+          
+          <button class="btn2">StartOver </button>
+        </div>
+        
+
+      </form>
+    
+      <input type="radio" name="variable" value="value">
+      <p>What type of music do you listen to?</p>
+<div>
+<input type="checkbox" name="genre" value="punk" checked> Punk
+rock 
+<input type="checkbox" name="genre" value="indie" checked> Indie
+rock> 
+<input type="checkbox" name="genre" value="hiphop"> Hip Hop
+<input type="checkbox" name="genre" value="rockabilly">
+Rockabilly
+</div>
+      <form action="/client.php" method="POST" enctype="multipart/form-data">
+        <label>Send a photo to be used as your online icon <strong>(optional)
+        </strong><br>
+        <input type="file" name="photo"></label>
+        </form>
+
+        <label>Number of guests <input type="number" name="guests" min="1"
+          max="6"></label>
+          <label>Satisfaction (0 to 10) <input type="range" name="satisfaction"
+          min="0" max="10" step="1"></label>
+          <label>Your favorite color: <input type="color" name="favorite">
+          </label>
+          Percent downloaded: <progress max="100" id="fave">0</progress>
+
+          <ul>
+            <li><label><input type="checkbox" name="genre" value="punk"> Punk
+            rock</label></li>
+            <li><label><input type="checkbox" name="genre" value="indie"> Indie
+            rock</label></li>
+            <li><label><input type="checkbox" name="genre" value="hiphop"> Hip
+            Hop</label></li>
+            <li><label><input type="checkbox" name="genre" value="rockabilly">
+            Rockabilly</label></li>
+            </ul>
+
+            <fieldset>
+              <legend>Mailing List Sign-up</legend>
+              <ul>
+              <li><label>Add me to your mailing list <input type="radio"
+              name="list" value="yes" checked></label></li>
+              <li><label>No thanks <input type="radio" name="list" value="no">
+              </label></li>
+              </ul>
+              </fieldset>
+              <fieldset>
+              <legend>Customer Information</legend>
+              <ul>
+              <li><label>Full name: <input type="text" name="fullname"></label>
+              </li>
+              <li><label>Email: <input type="text" name="email"></label></li>
+              <li><label>State: <input type="text" name="state"></label></li>
+              </ul>
+              </fieldset>
+  </body>

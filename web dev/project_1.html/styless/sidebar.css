@@ -1,0 +1,32 @@
+.sidebar{
+  position:fixed;
+  top: 56px;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  width: 72px;
+}
+.sidebarl{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 4px;
+  z-index: 2;
+  padding-top: 5px;
+  cursor: pointer;
+  
+}
+.sidebarl:hover{
+  background-color: rgb(232, 227, 227);
+}
+.sidebar1{
+  height: 30px;
+}
+.name-S{
+ display: flex;
+ font-family: Roboto,Arial;
+ font-size: 11px;
+
+}
