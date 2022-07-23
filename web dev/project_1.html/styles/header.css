@@ -48,6 +48,7 @@
   margin-left: 0px;
   padding-top: 6px;
   
+  
 }
 
 .icon2{
@@ -79,7 +80,6 @@
 }
 .search1{
   height: 33px;
-  margin-right: 0px;
   flex: 1;
   border-radius: 2px;
   border-color: rgb(233, 233, 233);
@@ -89,6 +89,13 @@
   margin-right: -1px;
   width: 0;
   position: relative;
+  padding-left: 30px;
+  font-size: 16px;
+  
+}
+.search1::placeholder{
+  padding-left: 10px;
+  font-family: Roboto,Arial;
 }
 
 .icon3 .tooltip{
@@ -105,11 +112,22 @@
   opacity: 0;
   transition: opacity 0.15ms;
   pointer-events: none;
-  
- 
 }
+
 .icon3:hover .tooltip{
   opacity: 1;
+  
+}
+ 
+
+.tooltip2{
+  position: absolute;
+ 
+}
+
+.search1:hover .tooltip2{
+  pointer-events: all;
+  visibility: hidden;
 }
 
 
@@ -128,19 +146,21 @@
   transition: opacity 0.15ms;
   pointer-events: none;
 }
- 
 
   .icon2:hover .tooltip1{
     opacity: 1;
   }
+
   .tooltip{
     width: 40px;
     height: 20px;
   }
+
 .search1::placeholder{
   font-family: Roboto,Arial;
   font-size: 16px;
   padding-left: 10px;
+  pointer-events: all;
 }
 .right-section{
   width: 200px;
@@ -192,4 +212,4 @@
   margin-right: 20px;
   border-radius: 15px;
 }
-  
+ 

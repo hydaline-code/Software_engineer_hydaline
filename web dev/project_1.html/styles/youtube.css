@@ -160,6 +160,12 @@ column-gap: 15px;
 row-gap: 40px;
 }
 
+@media (max-width: 600px) {
+  .videogrid
+    grid-template-columns: 1fr 1fr;
+}
+  
+
 .image6{
 width: 300px;
 
