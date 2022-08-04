@@ -1,0 +1,301 @@
+*{
+  box-sizing: border-box;
+}
+.big{
+  background-color: antiquewhite;
+  
+}
+.headimg{
+position: relative;
+
+}
+
+nav{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 3px;
+  
+}
+.nav{
+  font-weight: 300;
+}
+
+header{
+  background-color: antiquewhite;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  position: relative;
+  padding-left: 12px;
+  width: 98.5vw;
+}
+
+.headingp{
+  position: absolute;
+  top: 20px;
+  left: 75px;
+  font-style: italic;
+  font-size: 18.5px;
+}
+.headingp2{
+  position: absolute;
+  bottom: 0px;
+  padding-left: 4px;
+}
+
+
+
+.headdiv{
+  margin-top: 5px;
+  width: 98.5vw;
+  border-radius: 20px;
+  
+  
+}
+
+.divimg{
+  
+  background-image: url("../sanfrancisco.jpg");
+  width: 98.5vw;
+  height: 200px;
+  position: relative;
+  border-radius: 15px;
+ 
+  
+}
+
+.headdiv .items{
+  display: flex;
+  flex-direction: row;
+  width: 98.2vw;
+  background-color: rgba(57, 55, 55, 0.5); 
+  border-radius: 15px;
+  
+}
+.items{
+  position: absolute;
+  top: 140px;
+  width: 98.5vw;
+  justify-content: space-between;
+  padding-top: 7px;
+  margin: 0px;
+  padding-right: 2px;
+  
+ 
+}
+button{
+  background-color: crimson;
+  color: white;
+  border-radius: 7px;
+  height: 30px;
+  width: 80px;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+.items p{
+  margin-right: 2px;
+ color: white;
+}
+
+.Article{
+  width: 98.5vw;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+  gap: 3px;
+  margin-bottom: 2px;
+  height: 450px;
+}
+
+.asideA{
+  background-color: rgb(108, 106, 106);
+  border-radius: 10px;
+  margin-top: 5px;
+  flex: 2; 
+  position: relative;
+  padding-left: 7px;
+  
+}
+
+.imgaside{
+  position: absolute;
+  left: 80px;
+}
+.asideA .p2{
+  position: absolute;
+  top: 200px;
+}
+.asideA p{
+  position: absolute;
+  top: 270px;
+}
+.asideA h2{
+  color: white;
+}
+
+.arrow{
+  position: absolute;
+  left: -10px;
+  top: 120px;
+}
+
+.divasid{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 370px;
+  left: 50px;
+  gap: 3px;
+}
+
+.divasid div{
+
+}
+
+article{
+  margin-top: 5px;
+  border-radius: 10px;
+  flex: 6;
+  width: 200px;
+  padding-left: 2px;
+  
+}
+
+.imgart{
+  margin-top: 10px;
+  position: relative;
+}
+
+.part{
+  position: absolute;
+  bottom: 160px;
+  left: 70px;
+}
+
+.line{
+  width: 98.5vw;
+  background-color: antiquewhite;
+  padding-left: 13px;
+  padding-right: 5px;
+  position: relative;
+}
+.lineh{
+  width: 98.5vw;
+  background-color: antiquewhite;
+  padding-left: 13px;
+  padding-right: 5px;
+  
+}
+.limg{
+  position: absolute;
+  left: 640px;
+  height: 20px;
+}
+
+
+footer{
+  background-color: antiquewhite;
+  width: 98.5vw;
+  border-radius: 5px;
+  height: 100px;
+  display: flex;
+  gap: 1.5px;
+  padding: 2px;
+  height: 120px;
+}
+
+.foot1,.foot2,.foot3{
+  width: 200px;
+  flex: 3;
+  border-radius: 18px;
+  
+}
+.foot2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2px;
+  
+}
+.foot2,.foot1,.foot3{
+  position: relative;
+   
+}
+.foot2 p{
+  position: absolute;
+  bottom: 75px; 
+  padding-left: 1px;
+  
+}
+.foot3 p{
+  position: absolute;
+  bottom: 75px; 
+  left: 17px;
+}
+.foot1 p{
+  position: absolute;
+  bottom: 75px; 
+  padding-left: 3px;
+  padding-left: 2px;
+  
+}
+.p1f{
+  position: absolute;
+  top: 20px;
+  
+}
+.p2f{
+  position: absolute;
+  top: 50px;
+ 
+}
+.friends{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  
+}
+
+.asidef{
+ 
+  flex: 0.5;
+}
+.sdiv1,.sdiv2,.sdiv3,.sdiv4{
+
+width: 95px;
+margin-top: 25px;
+}
+.sdiv1{
+  background: url("../pic1.jpg");
+  height: 70px;
+  border-radius: 10px;
+  
+  
+}
+.sdiv2{
+  background: url("../pic2.jpg");
+  height: 70px;
+  border-radius: 10px;
+}
+.sdiv3{
+  background: url("../pic3.jpg");
+  height: 70px;
+  border-radius: 10px;
+}
+.sdiv4{
+  background: url("../pic4.jpg");
+  height: 70px;
+  border-radius: 10px;
+}
+
+li{
+  color: rgb(162, 68, 68);
+  list-style-type:lower-greek;
+  
+}

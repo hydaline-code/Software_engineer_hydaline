@@ -1,0 +1,76 @@
+
+.form1{
+  background-color: aqua;
+  
+}
+
+ .title{
+  font-weight: bold;
+ }
+ .texts{
+  border: none;
+ }
+ 
+ .form2{
+ 
+  background-color: rgb(0, 17, 255) ;
+ }
+
+ .form2{
+  width: 400px;
+ }
+
+ section{
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+ }
+  
+ input{
+ 
+  
+ }
+ label{
+  margin-left: 8px;
+ }
+ .inputs{
+  margin-right: 10px;
+  width: 140px;
+ }
+ .text1{
+  margin-left: 40px;
+  width: 140px;
+ }
+ .text2{
+  margin-left: 36px;
+  width: 140px;
+ }
+ .text3{
+  margin-left: -1px;
+  width: 137px;
+ }
+ .text4{
+  margin-left: 1px;
+  width: 138px;
+ }
+ .text5{
+  margin-left: 18px;
+  width: 70px;
+ }
+ .text6{
+  margin-left: 25px;
+  width: 150px;
+ }
+ .text7{
+  margin-left: 57px;
+  width: 150px;
+ }
+ .text8{
+  margin-left: 70px;
+  width: 150px;
+ }
+ div{
+  display: flex;
+  justify-content: center;
+ }
+ 

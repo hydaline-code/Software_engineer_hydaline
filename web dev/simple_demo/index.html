@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+  <html>
+    <meta charset="utf-8">
+    <head>
+    <title>trial</title>
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        box-sizing: border-box;
+
+      }
+
+      .pic{
+        background: url("../project_2/sanfrancisco.jpg");
+        width: 95vw;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+       
+        border: 3px solid red;
+      }
+      .one{
+        background-color: aqua;
+        display: flex;
+        width: 100px;
+        flex: 4;
+      }
+      .two{
+        background-color: rgb(38, 0, 255);
+        display: flex;
+        width: 100px;
+        flex: 2;
+        order: 1;
+        
+      }
+      .three{
+        background-color: rgb(255, 205, 232);
+        display: flex;
+        width: 100px;
+        flex: 3;
+        
+      }
+      .div1{
+        width: 300px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border: 3px solid saddlebrown;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 0 1 auto;
+        
+        
+        
+      }
+      .pic2{
+          background-image: url("../simple_demo/food3.jfif");
+          width: 95vw;
+          height: 25vh;
+          margin: 0 auto; 
+          position: relative;
+      }
+      h1{
+        position: absolute;
+        top: 50%;
+        bottom: 25%;
+        right: 25%;
+        left: 25%;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgba(237, 200, 153, 0.7);
+        width: 39.5%;
+        
+      }
+      nav .list{
+        margin-left: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+      nav .list li{
+       padding: 2px;
+        border: 1px solid red;
+        border-radius: 10px;
+        margin: 3px;
+        background-color: burlywood;
+      }
+      header{
+       
+        margin: 2px;
+        margin-bottom: 5px;
+        
+      }
+      h5{
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+      }
+      .box{
+        flex-grow: 1 1 auto;
+      }
+      #container {
+        display: flex;
+        }
+
+    </style>
+  </head>
+  
+  <body>
+        
+         <section class="pic">
+
+         </section>
+
+         <section class="pic2">
+        
+
+          <header>
+            <nav>
+              <ul class="list">
+                <li>
+                  MENU
+                </li>
+                <li >
+                  HOME
+                </li>
+                <li >
+                  NEWS
+                </li>
+                <li>
+                  ABOUT
+                </li>
+              </ul>
+            </nav>
+          </header>
+
+          <h1>HYDALINE EAT WELL !MIAM</h1>
+
+      </section>
+
+        <section>
+          <footer>
+             <h5>By HYD-TECH HUB </h5>
+
+         </section>
+
+         
+
+         <div class="div1">
+
+          <div class="one">one</div>
+          <div class="two">two</div>
+          <div class="three">three</div>
+          
+
+         </div>
+         <div id="container"> 
+          <div class="box box1">1</div>
+          <div class="box box2">2</div>
+          <div class="box box3">3</div> 
+          <div class="box box4">4</div>
+          <div class="box box5">5</div>
+          </div>
+       
+  </body>
+
+  </html>
