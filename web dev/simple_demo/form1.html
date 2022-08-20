@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <head>
+    <title>Tables</title>
+    <style>
+      canvas{
+        border:solid salmon;
+        padding: 10px;
+      }
+    </style>
+    <script>
+      window.addEventListener('load', eventWindowLoaded, false);
+        function eventWindowLoaded() {
+        canvasApp();
+        }
+        function canvasApp(){
+        var theCanvas = document.getElementById('my_first_canvas');
+        var my_canvas = theCanvas.getContext('2d');
+        my_canvas.strokeRect(0,0,200,225) 
+        my_canvas.beginPath();
+        my_canvas.arc(100, 100, 75, (Math.PI/180)*0, (Math.PI/180)*360, false);
+        // circle dimensions
+        my_canvas.strokeStyle = "black"; // circle outline is black
+        my_canvas.lineWidth = 3; // outline is three pixels wide
+        my_canvas.fillStyle = "yellow"; // fill circle with yellow
+        my_canvas.stroke(); // draw circle
+        my_canvas.fill(); // fill in circle
+        my_canvas.closePath();
+        // now, draw left eye
+        my_canvas.fillStyle = "black"; // switch to black for the fill
+        my_canvas.beginPath();
+        my_canvas.arc(65, 70, 10, (Math.PI/180)*0, (Math.PI/180)*360, false);
+        // circle dimensions
+        my_canvas.stroke(); // draw circle
+        my_canvas.fill(); // fill in circle
+        my_canvas.closePath();
+        // now, draw right eye
+        my_canvas.beginPath();
+        my_canvas.arc(135, 70, 10, (Math.PI/180)*0, (Math.PI/180)*360, false);
+        // circle dimensions
+        my_canvas.stroke(); // draw circle
+        my_canvas.fill(); // fill in circle
+        my_canvas.closePath();
+        // draw smile
+        my_canvas.lineWidth = 6; // switch to six pixels wide for outline
+        my_canvas.beginPath();
+        my_canvas.arc(99, 120, 35, (Math.PI/180)*0, (Math.PI/180)*-180, false);
+        // semicircle dimensions
+        my_canvas.stroke();
+        my_canvas.closePath();
+        // Smiley Speaks!
+        my_canvas.fillStyle = "black"; // switch to black for text fill
+        my_canvas.font = '20px _sans'; // use 20 pixel sans serif font
+        my_canvas.fillText ("Hello Canvas!", 45, 200); // write text
+      }
+    </script>
+  </head>
+
+  <body>
+
+    <form method="post" action="target.php">
+      <p><label>Yourname:</label><input type="text" name="username"
+        id="username"/>
+      </p>
+    </form>
+
+      <audio src="../simple_demo/soon.mp3" controls></audio>
+
+      <video controls poster="../simple_demo/tech.jpg" width="200px">
+
+        <source src="../simple_demo/video.mp4" />
+        <source src="../simple_demo/video.mp4" />
+        <source src="../simple_demo/video.mp4" />
+        <source src="../simple_demo/video.mp4" />
+
+      </video>
+    
+      <iframe width="713" height="401" src="https://www.youtube.com/embed/-q27p9xt0EE" 
+        title="Les Douleurs de Takam ,Doul 20 , une charge un peu trop lourde 2" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+        gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+
+      <canvas width="600" height="400" id="my_first_canvas">
+
+      </canvas>
+      
+  </body>
+
+</html>

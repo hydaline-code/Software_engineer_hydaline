@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      #layout{
+        display:grid;
+        grid-template-rows:  [header-start] 100px
+          [content-start]  400px
+          [footer-start] 100px;
+
+        grid-template-columns: [ads] 200px 
+        [main] 1fr 
+        [links] 200px; 
+        };
+        
+        
+      
+      .one{
+        border: solid;
+        background-color: rgb(85, 255, 0);
+      }
+      .two{
+        border: solid;
+       
+        background-color: blue;
+      }
+      .three{
+        border: solid;
+        background-color: aqua;
+      }
+      .four{
+        border: solid;
+        
+        background-color: rgb(240, 243, 255);
+
+      }
+      .five{
+        border: solid;
+        background-color: rgb(224, 245, 220);
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="layout">
+      <div class="one">one</div>
+      <div class="two">head</div>
+      <div class="three">links</div>
+      <div class="four">ads</div>
+      <div class="five">main</div>
+      </div>
+
+      
+  </body>
+</html>

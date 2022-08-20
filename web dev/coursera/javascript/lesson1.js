@@ -138,7 +138,72 @@ var literalCircle ={ // new object created  implicitly
 // call the function
 console.log(literalCircle.getArea());
 
-//Arrays
+//Arrays : collection of data of any types in js
+/*var   array =new Array();
+array[0]="hyda";
+array[1]="emma";
+array[2]="chacha";
+array[3]=function (name){
+  console.log("hello " + name);
+};
+array[4]= {
+  course: "HTML,CSS & JS"
+};
+console.log(array);// all the values are output 
+console.log(array[4].course);
+array[3]("charlene");
+array[3](array[1]);
+var names = [
+  "chacha","chacha2","chacha3"];
+console.log(names);
+for (var i =0; i<names.length; i++){
+  console.log("Hello "+ names[i]);
+}
+
+names[99]="jim";
+for (var i =0; i<names.length; i++){
+  console.log("Hello "+ names[i]);
+}
+
+var names = ["chacha","chacha2","chacha3"];
+var myobj = {
+  names:"chacha",
+  course:"html/css/js",
+  platform:"coursera"
+}; 
+//retrieve properties of the var
+for (var prop in myobj){
+  console.log(prop + ":" + myobj[prop]);
+}
+// arrays are just objects in javascript
+
+var names2 = ["chacha","chacha2","chacha3"];
+for (var name in names2){
+  console.log("Hello + " , names2[name]);
+}*/
+
+
+//closures very essential 
+// create a function
+
+function makeMultiplier(multiplier){
+
+  function b() {
+    console.log("multiplier is : " + multiplier); 
+  }
+
+  b();
+  return(
+    function (x){
+      return multiplier * x;
+    }
+  );
+
+}
+  var ansfunction = makeMultiplier(4); // reference to it outer lexical environment
+  console.log(ansfunction(2));
+  // closure permit to conserve everything outside of the lexical 
+  //environment the return 
 
 
  
