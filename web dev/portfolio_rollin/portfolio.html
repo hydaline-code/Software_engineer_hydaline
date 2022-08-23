@@ -7,137 +7,225 @@
   <link rel="stylesheet" href="../portfolio_rollin/style/portfolio.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==
-  " crossorigin="anonymous"/>"
+  " crossorigin="anonymous"/>
+  <link rel="stylesheet" href="website/cssfile.css">
+  <link rel="stylesheet" href="website/fontawesome.css">
+  <link rel="stylesheet" href="../portfolio_rollin/fontawesome-free-6.1.2-desktop.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|
+     Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
   
 </head>
 <body>
-  <heaader>
+  <header>
     <div class="logo">
-      <img src="profil.jpg" style="width:100px">
+      <img src="logo.jpg" style="width:100px">
     </div>
-    <button class="nav-toggle " aria-label="toggle navigation">
+    <button class="nav-toggle" aria-label="toggle navigation">
       <span class="hamburger"></span>
     </button>
     <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"> <a href="#home" class="nav__link"> HOME </a> </li>
-          <li class="nav__item"> <a href="#services" class="nav__link">My Services</a></li>
-          <li class="nav__item"> <a href="#about" class="nav__link">About Me </a></li>
-          <li class="nav__item"> <a href="#" class="nav__link">My Work</a></li>
-        </ul>
-    </nav>
-  </heaader>
+      <ul class="nav__list">
+        <li class="nav__item"> <a href="#home" class="nav__link">  </a></li>
+        <li class="nav__item"> <a href="portfolio.html#my-work1" class="nav__link">Mes Experiences Professionnelles</a></li>
+        <li class="nav__item"> <a href="portfolio.html#my-services" class="nav__link">Mes Competences </a></li>
+        <li class="nav__item"> <a href="portfolio.html#my-work" class="nav__link">Mes Realisation </a></li>
+      </ul>
+  </nav>
+  </header>
+
      <!---------introduction-------->
+
   <section class="intro" id="home">
+   
     <h1 class="section__title section__title--intro">
-      Hello! I am <strong>Fongang Chedjou Ledru-Rollin</strong>
+      Hi,I am <strong> Fongang Chedjou </strong>
+      
     </h1>
-    <p class="section__subtitle section__subtitle--intro">
-      Bachelor of Technology in Civil Engineering</p>
-      <img src="profil.jpg" style="width:100px">
+    
+    <p class="section__subtitle section__subtitle--intro">Ingenieur de Travaux en Genie Civil
+      , Douala-Cameroun</p>
+      <img class="intro__img" src="profil1.jpg" style="width:200px">
 
   </section>
 
-  <!-------services -->
-  <section class="my services" id="services">
-    <h2 class="section__title section__title--services">What I do </h2>
+  <!-----About me -->
+  <section class="aboutme" id="about">
+    <div class="identity">
+    <h2 class="section__title section__title--aboutme">Qui suis-je </h2>
+    <p class="section__subtitle section__subtitle--about">licence de Technologie en Genie Civil</p>
+
+    <div class="about me__body">
+      <p>Je cherche à monter en compétences techniques à travers
+        des formations et des projets pratiques dans le but de me
+        perfectionner et être opérationnelle au profit du
+        développement des entreprises.</p>
+        <p class="section__subtitle section__subtitle--about">Cursurs Scolaire</p>
+          <p>
+            <ul>
+              <li> Bachelor in Technology in Civil Enginering (2021)</li>
+              <li>General Certificate Examination A level (2017)</li>
+            </ul>
+        </p>
+
+    </div>
+    </div>
+    <img src="rol1.jpg" alt="roland" class="about-img" >
+   
+  </section>
+
+                <!-----Mes experience professionel-->
+
+  <section class="my-work1" id="work">
+    <h2 class="section__title--work">Mes Experiences Professionelle</h2>
+    <p class="section__subtitle--work">Quelques stages en Entreprises</p>
+
+    <div class="portfolio1">
+      <div class="porfolio__item1">
+        <img src="stage11.PNG"   alt="work" class="portfolio__img" >
+      </div>
+
+      <div class="porfolio__item1">
+        <img src="stage7.PNG"   alt="work" class="portfolio__img" >
+      </div>
+
+      <div class="porfolio__item1">
+        <img src="stage13.PNG"   alt="work" class="portfolio__img" >
+      </div>
+    </div>
+  </section>  
+
+     <!-------services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">Mes Competences</h2>
     <div class="services">
 
       <div class="service"> <!-----service-->
-        <h3>Outil office</h3>
+        <h3>Logiciel de Dessin</h3>
+         <p>Avant toutes choses, il faut dimmensionner et 
+          ensuite concevoir. Sans oublier l'animation en temps reel.
+          L'ensemble se fait les outils :</p>
+           <div class="imglogo"><img src="../portfolio_rollin/autocad.png" style="width: 50px;">
+
+            <img src="../portfolio_rollin/archicad.jfif" style="width: 50px;">
+            
+            <img src="../portfolio_rollin/twin.jpg" style="width: 50px;"> </div>
+      </div>
+
+
+      <div class="service">
+        <h3>Outil office</h3> <!-----service-->
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing 
-          elit, sed do eiusmod tempor 
-          incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation
-           ullamco laboris nisi 
-          ut aliquip ex ea commodo consequat.
-        </p>
+          Les cahier de charges est etablit avec des outils 
+          tel que </p>
+          <div class="imgoffice">
+            <img src="../portfolio_rollin/excel.jpg" style="width: 80px;"> 
+            <img src="../portfolio_rollin/Word.jpg" style="width: 80px;">
+            <img src="../portfolio_rollin/powerpoint.png" style="width: 50px;">
+         </div>
+          </div>
+          
+        
       </div>
 
       <div class="service">
-        <h3> professional software</h3> <!-----service-->
-        <p>
-          Lorem ipsum dolor sit amet, consectetur 
-          adipiscing elit, sed do eiusmod tempor 
-          incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation
-           ullamco laboris nisi 
-          ut aliquip ex ea commodo consequat.
-        </p>
-      </div>
-
-      <div class="service">
-        <h3>Project Management</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur 
-          adipiscing elit, sed do eiusmod tempor 
-          incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation 
-          ullamco laboris nisi 
-          ut aliquip ex ea commodo consequat.
-        </p>  <!-----service-->
+        <h3>Gestion de Projets</h3>
+        <p>Le suivi des projet tout entier se fait avec des logiciel 
+          tel que 
+          <div class="project">
+            <img src="../portfolio_rollin/msproject.png" style="width: 80px;"> 
+            <img src="../portfolio_rollin/gnatt-project.jpg" style="width: 80px;">
+          </div>  <!-----service-->
       </div>
     </div>
-      <a href="#My work" class="btn">My Work </a>
-
+    <a href="portfolio.html#work2" class="btn">My Work</a>
   </section>
-  <!-----About me -->
-  <section class="aboutme" id="about">
-    <h2 class="section__title section __title--about">Who am I</h2>
-    <p class="section__subtitle subtitle __title--about"> </p>
-
-    <div class="about me__body">
-      <p></p>
-      <p></p>
-
-    </div>
-
-    <img src="profil.jpg" style="width:100px">
-  </section>
+  
 
   <!-----My work-->
-    <section class="my-work" id="work">
-      <h2 class="section__title">My work</h2>
-      <p class="section__subtitle"></p>
+    <section class="my-work" id="work2">
+      <h2 class="section__title--work">Mes Realisations</h2>
+      <p class="section__subtitle--work">Quelques travaux de dessin  
+        2D et 3D realiser </p>
 
-      <div class="porfolio">
+      <div class="portfolio">
         <a href="#" class="porfolio__item">
-          <img src="profil.jpg" style="width:100px" class="portfolio__img">
+          <img src="P4.3.png"   alt="work" class="portfolio__img">
         </a>
 
         <a href="#" class="porfolio__item">
-          <img src="profil.jpg" style="width:100px" class="portfolio__img">
+          <img src="P7.1.png"  alt="work" class="portfolio__img">
         </a>
 
         <a href="#" class="porfolio__item">
-          <img src="profil.jpg" style="width:100px" class="portfolio__img">
+          <img src="P6.2.png" alt="work" class="portfolio__img">
         </a>
 
         <a href="#" class="porfolio__item">
-          <img src="profil.jpg" style="width:100px" class="portfolio__img">
+          <img src="P9.1.png"  alt="work" class="portfolio__img">
         </a>
 
         <a href="#" class="porfolio__item">
-          <img src="profil.jpg" style="width:100px" class="portfolio__img">
+          <img src="P9.2.png"  alt="work" class="portfolio__img">
         </a>
 
         <a href="#" class="porfolio__item">
-          <img src="profil.jpg" style="width:100px" class="portfolio__img">
+          <img src="P6.1.png"  alt="work" class="portfolio__img">
+        </a>
+
+        <a href="#" class="porfolio__item">
+          <img src="P10.2.png"  alt="work" class="portfolio__img">
+        </a>
+
+        <a href="#" class="porfolio__item">
+          <img src="P7.3.png"  alt="work" class="portfolio__img">
+        </a>
+        <a href="#" class="porfolio__item">
+          <img src="floor3.PNG" alt="work" class="portfolio__img">
+        </a>
+
+        <a href="#" class="porfolio__item">
+          <img src="floor2.PNG"  alt="work" class="portfolio__img">
+        </a>
+
+        <a href="#" class="porfolio__item">
+          <img src="floor.PNG"  alt="work" class="portfolio__img">
+        </a>
+
+        <a href="#" class="porfolio__item">
+          <img src="2d_1.PNG"  alt="work" class="portfolio__img" >
         </a>
       </div>
-
-
     </section>  
 
+
     <!----footer-->
-    <footer>
-      <a href="mailto:joanchacha@gmail.com" class="footer__link">joanchacha@gmail.com</a>
-      <ul class="social-list">
-        <li class="social-list__item">play<a class="social-list__link"></a></li>
-        <li class="social-list__item">play<a class="social-list__link"></a></li>
-        <li class="social-list__item">paly<a class="social-list__link"></a></li>
-        <li class="social-list__item">paly<a class="social-list__link"></a></li>
-    </ul>
-  </footer>
+    <footer class="footer">
+
+      
+      <div> Ci-joint:
+        <h5><a href="https://drive.google.com/file/d/
+          1JhZTZ5FGtUdLG5n2o599O1us6KpdMqrY/view?usp=drivesdk"> L'Attestation </a></h5>
+        <h5><a href="https://drive.google.com/file/d/
+          1JuEM5ZWfdpJP2rLFgdonSemGOhnKbL00/view?usp=drivesdk"> Le releves de notes </a></h5>
+      </div>
+      
+      <a href="mailto:joanchacha@gmail.com" class="footer__link">
+        </a>
+    
+      <div class="reseau">
+        <div class="sub_reseau">
+          <a  href="https://www.linkedin.com/in/FongangChedjouLedruRollin" class="social-list__link">
+            <img src="../portfolio_rollin/llink2.png" style="width:30px"></a>
+          <a href="mailto:joanchacha@gmail.com" class="social-list__link">
+            <img src="../portfolio_rollin/Gmail-Logo.jpg" style="width:40px"></a>
+          <a class="social-list__link"><img src="../portfolio_rollin/wataaps.png" style="width:30px"></a>
+        </div>
+            
+      </div>
+  </footer>  
+
+  <script src="../portfolio_rollin/portfolio.js">
+
+  </script>
 </body>
 </html>
