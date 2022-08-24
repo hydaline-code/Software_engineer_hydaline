@@ -469,6 +469,8 @@ strong{
  }
  .social-list__link{
   padding: 0.5em;
+  position: relative;
+  top: 9px;
  }
 
  .portfolio-item-individual{
@@ -529,9 +531,15 @@ strong{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
 .project{
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.num{
+  color: var(--clr--dark);
+  position: relative;
+  top: -5px;
 }
